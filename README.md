@@ -17,5 +17,4 @@ treeModel.Append(Staff(L"Epheser", Staff::RANK::CORPORAL), cox);
 ```
 ## This sample application ##
 The sample application was created using the graphical user interface [Dear ImGui](https://github.com/ocornut/imgui). I have chosen military staff for illustration. The main purpose of this application is to output a list and also filter elements in this one.
-
-https://github.com/TomH22/Tree-class-for-Cpp/blob/main/media/GeneralsTreeListExample.mp4
+![GeneralsTreeListExample](/media/GeneralsTreeListExample_lit.gif)
