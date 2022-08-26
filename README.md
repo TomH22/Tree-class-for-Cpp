@@ -1,7 +1,7 @@
 # Tree class for C++
 **This repository contains a tree class for C++ with iterator and an example.**
 ## Tree class ##
-- can be found at libs/Tree.h
+- can be found at [libs/Tree.h](/libs/Tree.h)
 
 The file should be a header-only library. The goal is to use this file in other projects.
 ## Sample implementation for creating tree data ##
