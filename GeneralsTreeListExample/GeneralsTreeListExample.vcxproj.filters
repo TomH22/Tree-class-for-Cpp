@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\libs\imgui.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_demo.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_draw.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_tables.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_widgets.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_impl_dx12.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui_impl_win32.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libs\imconfig.h">
+      <Filter>imgui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\imgui.h">
+      <Filter>imgui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\imgui_impl_dx12.h">
+      <Filter>imgui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\imgui_impl_win32.h">
+      <Filter>imgui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\imgui_internal.h">
+      <Filter>imgui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Tree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{af1bff23-5e56-43d3-9040-27cc605181cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\source">
+      <UniqueIdentifier>{ee806213-5626-4a0e-952c-b9c81ea5761d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\header">
+      <UniqueIdentifier>{7e2d6cd3-9b3b-4f42-bb04-5314002fb94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{090932ab-d76c-4baf-880b-b2805f47d802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{74b59f2e-577e-4de2-85c3-152eb45dfe6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
